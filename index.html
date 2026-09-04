@@ -3,69 +3,91 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Molakaseema Family Website - Under Construction</title>
+    <title>Molakaseema Family Website</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <header>
+    <!-- Header -->
+    <header class="header">
         <nav class="navbar">
-            <div class="logo">Molakaseema</div>
+            <div class="logo">Molakaseema Family</div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#family">Family</a></li>
+                <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- Hero Section -->
     <section class="hero">
-        <h1>Welcome to Molakaseema family website</h1>
-        <p>A simple family website for use by Molakaseema family</p>
-        <button onclick="showMessage()">Click Me</button>
-    </section>
-
-    <section id="about" class="section">
-        <h2>About Us</h2>
-        <p>
-            This is a starter template for our family website.  
-            We are working on building it out and adding more content. Please check back soon for updates!
-        </p>
-    </section>
-
-    <section id="family" class="section">
-        <h2>Our Family</h2>
-        <div class="family-grid">
-            <figure class="family-card">
-                <img src="Images/Sarat.jpg" alt="Sarat Kumar Reddy Molakaseema" />
-                <figcaption>Sarat Kumar Reddy Molakaseema</figcaption>
-            </figure>
-            <figure class="family-card">
-                <img src="Images/Sujatha.jpg" alt="Sujatha Molakaseema" />
-                <figcaption>Sujatha Molakaseema</figcaption>
-            </figure>
-            <figure class="family-card">
-                <img src="Images/Yutika.jpg" alt="Sai Yutika Molakaseema" />
-                <figcaption>Sai Yutika Molakaseema</figcaption>
-            </figure>
-            <figure class="family-card">
-                <img src="Images/Lochan.jpg" alt="Sai Lochan Molakaseema" />
-                <figcaption>Sai Lochan Molakaseema</figcaption>
-            </figure>
-            <figure class="family-card">
-                <img src="Images/Family.jpg" alt="Extended family" />
-                <figcaption>Extended Family</figcaption>
-            </figure>
+        <div class="hero-content">
+            <h1>Welcome to the Molakaseema Family Website</h1>
+            <p>Celebrating our family, memories, and togetherness.</p>
+            <button class="primary-btn" onclick="showMessage()">Learn More</button>
         </div>
     </section>
 
-    <section id="contact" class="section">
-        <h2>Contact</h2>
-        <p>Email: admin@molakaseema.com</p>
-    </section>
+    <!-- About Section -->
+    <main>
+        <section id="about" class="section about">
+            <h2>About Us</h2>
+            <p>
+                Welcome to our family website!  
+                We are building this space to share our stories, photos, and memories.  
+                Stay tuned as we continue to add more content and features.
+            </p>
+        </section>
 
-    <footer>
-        <p>© 2026 Molakaseema Family</p>
+        <!-- Family Section -->
+        <section id="family" class="section family">
+            <h2>Our Family</h2>
+            <div class="family-grid">
+                <figure class="family-card">
+                    <img src="Images/Sarat.jpg" alt="Sarat Kumar Reddy Molakaseema" />
+                    <figcaption>Sarat Kumar Reddy Molakaseema</figcaption>
+                </figure>
+
+                <figure class="family-card">
+                    <img src="Images/Sujatha.jpg" alt="Sujatha Molakaseema" />
+                    <figcaption>Sujatha Molakaseema</figcaption>
+                </figure>
+
+                <figure class="family-card">
+                    <img src="Images/Yutika.jpg" alt="Sai Yutika Molakaseema" />
+                    <figcaption>Sai Yutika Molakaseema</figcaption>
+                </figure>
+
+                <figure class="family-card">
+                    <img src="Images/Lochan.jpg" alt="Sai Lochan Molakaseema" />
+                    <figcaption>Sai Lochan Molakaseema</figcaption>
+                </figure>
+
+                <figure class="family-card">
+                    <img src="Images/Family.jpg" alt="Extended Family" />
+                    <figcaption>Extended Family</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="section gallery">
+            <h2>Gallery</h2>
+            <p>More photos and memories coming soon!</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <h2>Contact</h2>
+            <p>Email: admin@molakaseema.com</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 Molakaseema Family — All Rights Reserved</p>
     </footer>
 
     <script src="script.js"></script>
